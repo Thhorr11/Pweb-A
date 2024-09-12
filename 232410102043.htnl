@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thoriq Firdausi</title>
+    <style>
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            margin:0 auto;
+        }
+        table, th, td {
+            border: 2px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        thead {
+            background-color: #177e7e;
+            color: white;
+            font-family: 'Times New Roman';
+        }
+        td[colspan="5"] {
+            text-align: center;
+        }
+        .biodata, .Pendidikan {
+            margin-bottom: 20px;
+        }
+        .center {
+            text-align: center;
+        }
+        img {
+            max-width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="Foto12.jpg" alt="Foto Biodata">
+
+    <h2 class="center">Biodata</h2>
+    <table class="biodata">
+        <tr>
+            <td>Nama</td>
+            <td>Thoriq Firdausi</td>
+        </tr>
+        <tr>
+            <td>Tempat, Tanggal Lahir</td>
+            <td>Pemalang, 10 April 2005</td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>Ds. Pesantren Kec. Ulujami Kab. Pemalang Jawa Tengah</td>
+        </tr>
+        <tr>
+            <td>NIM</td>
+            <td>232410102043</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>Firdausithoriq7@gmail.com</td>
+        </tr>
+    </table>
+
+    <table class="Pendidikan">
+        <thead>
+            <tr>
+                <td colspan="5"><center>RIWAYAT PENDIDIKAN</center></td>
+            </tr>
+            <tr>
+                <td><center>KATEGORI</center></td>
+                <td><center>JENJANG</center></td>
+                <td><center>INSTANSI</center></td>
+                <td><center>JURUSAN</center></td>
+                <td><center>TAHUN LULUS</center></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5"><center>FORMAL</center></td>
+                <td><center>TK</center></td>
+                <td><center>TK PERTIWI</center></td>
+                <td><center>-</center></td>
+                <td><center>2010</center></td>
+            </tr>
+            <tr>
+                <td><center>SD</center></td>
+                <td><center>SDN 04 Pesantren</center></td>
+                <td><center>-</center></td>
+                <td><center>2016</center></td>
+            </tr>
+            <tr>
+                <td><center>SMP</center></td>
+                <td><center>Smp N 1 Bodeh</center></td>
+                <td><center>-</center></td>
+                <td><center>2019</center></td>
+            </tr>
+            <tr>
+                <td><center>SMA</center></td>
+                <td><center>Man 1 Kota Pekalongan</center></td>
+                <td><center>MIPA</center></td>
+                <td><center>2022</center></td>
+            </tr>
+            <tr>
+                <td><center>UNIVERSITAS</center></td>
+                <td><center>Universitas Jember</center></td>
+                <td><center>Teknologi Informasi</center></td>
+                <td><center>-</center></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
